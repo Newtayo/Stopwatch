@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 100vh;
+    border: solid 2px red;
+    
+}
+
+section{
+    height: 75vh;
+    width: 75vh;
+    border: solid 2px red;
+    border-radius: 52%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.display{
+    height: 41.5vh;
+    width: 75vh;
+    
+    border-radius: 55vh 55vh 0% 0%; 
+    background-color: #000000;
+    font-size:  30px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.button{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    
+}
+
+button{
+
+    width:10vh;
+    height: 5vh;
+}
